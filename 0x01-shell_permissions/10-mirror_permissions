@@ -1,3 +1,2 @@
 #!/bin/sh
-target_mode=$(stat -c %a olleh)
-chmod "$target_mode" hello
+chmod --reference=olleh hello
